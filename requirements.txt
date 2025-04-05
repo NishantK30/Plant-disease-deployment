@@ -1,8 +1,11 @@
+--constraint constraints.txt
 flask
 flask-cors
+pillow
 torch==2.2.1+cpu
 torchvision==0.17.1+cpu
-pillow
 gunicorn
 --extra-index-url https://download.pytorch.org/whl/cpu
+
+
 
